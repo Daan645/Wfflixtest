@@ -1,0 +1,76 @@
+/*Styling for font*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Styling for the entire message form*/
+@media screen and (max-width: 1540px) {
+    .contactFormSection {
+        margin-left: -5%;
+    }
+}
+
+.contactFormSection {
+    background-color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 40%;
+    display: inline-block;
+    vertical-align: center;
+    padding: 10px;
+    line-height: 150%;
+}
+
+.container {
+    padding: 10px 20px;
+}
+
+/*Styling for the "Zoek contact met ons" header*/
+.h1Contact {
+    text-align: center;
+}
+
+/*Css styling for the submit button*/
+#contactFormSubmit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 10px;
+    /*margin-left: 10px;*/
+    /*margin-right: 20px;*/
+    /*margin: 10px;*/
+    border: none;
+    cursor: pointer;
+    width: 97.5%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#contactFormSubmit:hover {
+    background-color: #02c47d;
+}
+
+@media screen and (max-width: 300px) {
+    #contactFormSubmit {
+        margin-left: -5%;
+    }
+}
+
+/*Styling for user input fields*/
+#fullname, #email, #subject, #messageBox {
+    border-radius: 5px;
+    border: 1px solid #D3D3D3;
+    width: 95%;
+    padding: 1%;
+}
+
+#fullname:hover, #email:hover, #messageBox:hover, #subject:hover {
+    border: 1px solid #a9a9a9;
+}
+
+label {
+    float: left;
+    font-weight: bold;
+    margin-left: 1.5%;
+    padding-top: 1%;
+}

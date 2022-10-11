@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagenav {
+    float: left;
+    height: 70px;
+    width: 90px;
+    padding-left: 290px;
+    padding-right: 170px;
+    margin-top: -5px;
+}
+
+.topnav {
+    overflow: hidden;
+    padding-top: 5px;
+    background-color: white;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    color: red;
+}
+
+.topnav a.active {
+    color: red;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1%;
+}
+
+.registercard {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 2% auto;
+    width: 40%;
+}
+
+.registercontainer {
+    padding: 10px 20px;
+}
+
+span.acc {
+    float: right;
+    padding-top: 16px;
+}
+
+a {
+    color: black;
+}
+
+/* Change styles for span and cancel button on smaller screens */
+@media screen and (max-width: 300px) {
+    span.acc {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}

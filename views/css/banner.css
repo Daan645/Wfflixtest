@@ -1,0 +1,38 @@
+.imageHeading{
+    width: 100%;
+}
+
+/* Container with image and text */
+.container {
+    position: relative;
+    text-align: center;
+}
+
+/* Centered text */
+.aboutUs{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    scale: 1.5;
+}
+
+.appleLogo{
+    position: absolute;
+    top: 0%;
+    left: 47%;
+}
+
+.imageTrees{
+position: absolute;
+    top: 16%;
+    right:10%;
+    scale: 1.4;
+}
+
+.imageFruits{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    scale: 1.5;
+
+}

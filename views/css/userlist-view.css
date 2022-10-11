@@ -1,0 +1,58 @@
+.usersCard {
+    border: 1px solid #ddd;
+    width: 90%;
+    margin: 2.5% 5% 5%;
+}
+
+.usersCard h3 {
+    padding: 1%;
+    color: white;
+    background: gray;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: darkgrey;
+    color: white;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.deleteButton {
+    background-color: red;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 3%;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 8px;
+}
+.updateButton {
+    background-color: green;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 3%;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 8px;
+}

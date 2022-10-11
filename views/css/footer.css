@@ -1,0 +1,112 @@
+footer{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: #f44336;
+}
+
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.inner_footer .logo_container{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+    margin: 0px ;
+}
+
+.inner_footer .logo_container img{
+    width: 180px;
+    height: 150px;
+    margin-left: 110px;
+}
+
+.inner_footer .footer_third{
+    width: 40%;
+    margin-right: 10px;
+    float: right;
+    height: 100%;
+}
+
+.inner_footer .h1{
+    font-family: 'arial';
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inner_footer .tekst1{
+    font-family: 'arial';
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.bi-facebook{
+    width: 6%;
+    height: 6%;
+   background-color: white;
+    color: dodgerblue;
+    border-radius: 50%;
+}
+.bi-instagram{
+    width: 6%;
+    height: 6%;
+    color: white;
+    border-radius: 20%;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+}
+
+.footer_third  {
+    color: white;
+    float: right;
+}
+
+.footer_third .flevoinfo {
+    color: black;
+}
+
+/*sponsericons*/
+.fsscicon{
+    width: 30%;
+    height:30%;
+    float: right;
+    margin-top: -75px;
+    margin-right: -20px;
+}
+
+.mvoicon{
+    width: 20%;
+    height:20%;
+    float: right;
+    margin-top: -45px;
+    margin-right: -70px;
+}
+
+.gmopicon{
+    width: 15%;
+    height: 15%;
+    float: right;
+    margin-top: -45px;
+    margin-right: 18px;
+}
+
+.flevoinfo{
+    margin-top: 15px;
+}

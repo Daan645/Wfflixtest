@@ -1,0 +1,5 @@
+# Ignores idea
+.idea/
+
+# Ignores database folder
+database/

@@ -1,0 +1,61 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 1%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type=submit]:hover {
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.createProductCard {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 2% auto;
+    width: 40%;
+}
+
+.createProductContainer {
+    padding: 2px 25px;
+}
+
+.cancelbtn {
+    border-radius: 7.5px;
+    color: white;
+    margin-top: -1%;
+    margin-bottom: 2%;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    display: inline-block;
+}
+
+.cancelbtn:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+h1 {
+    padding-top: 2%;
+    text-align: center;
+}
